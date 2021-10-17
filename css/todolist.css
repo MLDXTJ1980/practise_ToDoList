@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightgray;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.w {
+    background-color: lightgray;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.title {
+    position: relative;
+    background-color: black;
+    height: 50px;
+}
+
+.title h3 {
+    float: left;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    color: white;
+}
+
+h3 span {
+    display: block;
+    float: right;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title input {
+    float: left;
+    width: 500px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.todo h3,
+.done h3 {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: grey;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.todo ul,
+.done ul {
+    display: table;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.todo ul li,
+.done ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+}
+
+.todo ul li span,
+.todo ul li input,
+.todo ul li p,
+.done ul li span,
+.done ul li input,
+.done ul li p {
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.todo ul li p,
+.done ul li p {
+    width: 500px;
+}
+
+.todo ul li span {
+    width: 10px;
+    background-color: green;
+}
+
+.done ul li span {
+    width: 10px;
+    background-color: grey;
+}
+
+.todo ul li i {
+    color: green;
+}
+
+.done ul li i {
+    color: grey;
+}
+
+footer {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
